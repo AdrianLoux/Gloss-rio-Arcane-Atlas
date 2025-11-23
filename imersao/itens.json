@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "Poção de Cura",
+    "descricao": "Restaura parte da vida ao ser consumida.",
+    "efeito": "Cura 20 PV",
+    "raridade": "comum",
+    "tags": [
+      "item",
+      "consumível"
+    ]
+  },
+  {
+    "nome": "Pergaminho Antigo",
+    "descricao": "Contém saberes esquecidos; usado para aprender magias.",
+    "efeito": "Ensina magia baixa",
+    "raridade": "raro",
+    "tags": [
+      "item",
+      "lore"
+    ]
+  },
+  {
+    "nome": "Anel de Proteção",
+    "descricao": "Bônus passivo de defesa enquanto usado.",
+    "efeito": "+1 armadura",
+    "raridade": "raro",
+    "tags": [
+      "item",
+      "equipamento"
+    ]
+  },
+  {
+    "nome": "Saco de Moedas (100)",
+    "descricao": "Moedas de cobre, útil para comércio.",
+    "efeito": "100 moedas",
+    "raridade": "comum",
+    "tags": [
+      "item",
+      "economia"
+    ]
+  },
+  {
+    "nome": "Tocha",
+    "descricao": "Ilumina áreas escuras por algumas horas.",
+    "efeito": "Fonte de luz",
+    "raridade": "comum",
+    "tags": [
+      "item",
+      "utilidade"
+    ]
+  },
+  {
+    "nome": "Amuleto de Sorte",
+    "descricao": "Pequeno amuleto que aumenta a sorte do portador.",
+    "efeito": "+1 em testes de sorte",
+    "raridade": "incomum",
+    "tags": [
+      "item",
+      "magia"
+    ]
+  }
+]

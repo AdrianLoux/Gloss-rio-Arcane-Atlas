@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Metadados básicos do documento -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arcane Atlas — Base RPG</title>
+
+  <!-- Link para a folha de estilos CSS -->
+  <link rel="stylesheet" href="STYLE.CSS" />
+</head>
+<body>
+  <!-- Cabeçalho do site -->
+  <header class="site-header">
+    <h1>Arcane Atlas</h1>
+    <!-- Controles de busca e filtro -->
+    <div class="controls">
+      <input id="searchInput" placeholder="Procurar por nome, descrição ou tag..." />
+      <select id="categorySelect">
+        <option value="all">Todas as categorias</option>
+      </select>
+      <button id="searchButton">Buscar</button>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal da página -->
+  <main>
+    <!-- Navegação de filtros (tags) que será populada dinamicamente -->
+    <nav id="filters" class="filters"></nav>
+    <!-- Seção onde os cards de conteúdo serão renderizados pelo JavaScript -->
+    <section class="card-container" aria-live="polite"></section>
+  </main>
+
+  <!-- Rodapé da página -->
+  <footer class="footer">
+    <div>Arcane Atlas — Projeto de Imersão</div>
+    <div class="footer-links"><a href="#">Sobre</a> · <a href="#">Contato</a></div>
+  </footer>
+
+  <!-- Link para o arquivo JavaScript principal -->
+  <script src="SCRIPT.js"></script>
+</body>
+</html>

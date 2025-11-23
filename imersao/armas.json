@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Espada Longa",
+    "descricao": "Arma versátil de lâmina longa, boa para cortes e estocadas.",
+    "dano": "1d8",
+    "tipo": "corpo-a-corpo",
+    "peso": 3,
+    "tags": [
+      "arma",
+      "metal"
+    ]
+  },
+  {
+    "nome": "Arco Longo",
+    "descricao": "Arma de longo alcance para precisão e dano consistente.",
+    "dano": "1d8",
+    "tipo": "distância",
+    "peso": 2,
+    "tags": [
+      "arma",
+      "distância"
+    ]
+  },
+  {
+    "nome": "Adaga",
+    "descricao": "Pequena, pode ser arremessada; preferida por ladinos.",
+    "dano": "1d4",
+    "tipo": "corpo-a-corpo",
+    "peso": 1,
+    "tags": [
+      "arma",
+      "furtivo"
+    ]
+  },
+  {
+    "nome": "Machado de Batalha",
+    "descricao": "Alta perfuração e impacto; ótimo contra armaduras leves.",
+    "dano": "1d10",
+    "tipo": "corpo-a-corpo",
+    "peso": 4,
+    "tags": [
+      "arma",
+      "pesado"
+    ]
+  },
+  {
+    "nome": "Cajado Arcano",
+    "descricao": "Foco para magos; pode ser usado como arma leve.",
+    "dano": "1d6",
+    "tipo": "corpo-a-corpo",
+    "peso": 2,
+    "tags": [
+      "arma",
+      "magia"
+    ]
+  },
+  {
+    "nome": "Lança",
+    "descricao": "Alcance estendido para combate em formação.",
+    "dano": "1d8",
+    "tipo": "corpo-a-corpo",
+    "peso": 3,
+    "tags": [
+      "arma",
+      "alcance"
+    ]
+  }
+]

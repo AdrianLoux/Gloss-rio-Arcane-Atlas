@@ -1,0 +1,42 @@
+[
+  {
+    "nome": "Ariadne, a Bibliotecária",
+    "descricao": "Guardiã de livros raros; fonte de quests de conhecimento.",
+    "ocupacao": "Bibliotecária",
+    "local": "Cidade de Éndor",
+    "tags": [
+      "npc",
+      "quest"
+    ]
+  },
+  {
+    "nome": "Thoron, o Ferreiro",
+    "descricao": "Mestre ferreiro que pode forjar armas lendárias.",
+    "ocupacao": "Ferreiro",
+    "local": "Vila de Kor",
+    "tags": [
+      "npc",
+      "forja"
+    ]
+  },
+  {
+    "nome": "Mestre Sylvan",
+    "descricao": "Druida ancião que protege a Floresta de Lýra.",
+    "ocupacao": "Druida",
+    "local": "Floresta de Lýra",
+    "tags": [
+      "npc",
+      "lore"
+    ]
+  },
+  {
+    "nome": "Capitão Mira",
+    "descricao": "Comandante da guarda da cidade, oferece escoltas e missões de proteção.",
+    "ocupacao": "Guarda",
+    "local": "Cidade de Éndor",
+    "tags": [
+      "npc",
+      "militar"
+    ]
+  }
+]

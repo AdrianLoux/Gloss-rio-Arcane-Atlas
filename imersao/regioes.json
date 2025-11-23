@@ -1,0 +1,50 @@
+[
+  {
+    "nome": "Cidade de Éndor",
+    "descricao": "Próspera cidade-estado com mercado extenso e guildas poderosas.",
+    "faccoes": [
+      "Guilda dos Ferreiros",
+      "Conselho Mercador"
+    ],
+    "tags": [
+      "cidade",
+      "civilização"
+    ]
+  },
+  {
+    "nome": "Floresta de Lýra",
+    "descricao": "Antiga floresta espiritual, lar de elfos e mistérios.",
+    "perigos": [
+      "Lobisomens",
+      "Armadilhas naturais"
+    ],
+    "tags": [
+      "selvagem",
+      "místico"
+    ]
+  },
+  {
+    "nome": "Deserto de Arak",
+    "descricao": "Terras áridas e ruínas enterradas; perfeito para expedições.",
+    "perigos": [
+      "Tempestades de Areia",
+      "Bandidos"
+    ],
+    "tags": [
+      "selvagem",
+      "ruínas"
+    ]
+  },
+  {
+    "nome": "Montanhas de Kor",
+    "descricao": "Cordilheira repleta de minas de minério e fortes anões.",
+    "perigos": [
+      "Avalanches",
+      "Dragões Vagos"
+    ],
+    "tags": [
+      "montanha",
+      "mineração"
+    ]
+  }
+]

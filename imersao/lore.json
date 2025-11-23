@@ -1,0 +1,29 @@
+[
+  {
+    "titulo": "A Era dos Fundadores",
+    "descricao": "Relato histórico sobre as tribos que se uniram para erigir as primeiras cidades.",
+    "periodo": "Há 800 anos",
+    "tags": [
+      "história",
+      "lore"
+    ]
+  },
+  {
+    "titulo": "O Eclipse Sangrento",
+    "descricao": "Evento cataclísmico que despertou mortos-vivos em vastas regiões.",
+    "periodo": "Há 120 anos",
+    "tags": [
+      "evento",
+      "lore"
+    ]
+  },
+  {
+    "titulo": "Os Pactos das Guildas",
+    "descricao": "Acordos secretos entre as principais guildas comerciais e militares.",
+    "periodo": "Há 45 anos",
+    "tags": [
+      "política",
+      "lore"
+    ]
+  }
+]

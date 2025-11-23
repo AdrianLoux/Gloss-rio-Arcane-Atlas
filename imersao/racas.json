@@ -1,0 +1,72 @@
+[
+  {
+    "nome": "Humano",
+    "descricao": "Adaptável e persistente, recebe bônus versáteis.",
+    "atributos_bonus": {
+      "força": 1,
+      "inteligencia": 1
+    },
+    "tags": [
+      "raça",
+      "versátil"
+    ]
+  },
+  {
+    "nome": "Elfo",
+    "descricao": "Agilidade sobrenatural e afinidade com magia.",
+    "atributos_bonus": {
+      "destreza": 2,
+      "inteligencia": 1
+    },
+    "tags": [
+      "raça",
+      "magia"
+    ]
+  },
+  {
+    "nome": "Anão",
+    "descricao": "Robustos e resistentes; excelentes em mineração e forja.",
+    "atributos_bonus": {
+      "força": 2,
+      "constituicao": 2
+    },
+    "tags": [
+      "raça",
+      "resistência"
+    ]
+  },
+  {
+    "nome": "Orc",
+    "descricao": "Força bruta e instintos guerreiros, mas menor sociabilidade.",
+    "atributos_bonus": {
+      "força": 3
+    },
+    "tags": [
+      "raça",
+      "força"
+    ]
+  },
+  {
+    "nome": "Halfling",
+    "descricao": "Pequenos e sortudos; especialistas em furtividade leve.",
+    "atributos_bonus": {
+      "destreza": 2
+    },
+    "tags": [
+      "raça",
+      "furtividade"
+    ]
+  },
+  {
+    "nome": "Tiefling",
+    "descricao": "Com sangue infernal; conhecimento arcano e presença intimidadora.",
+    "atributos_bonus": {
+      "inteligencia": 1,
+      "carisma": 1
+    },
+    "tags": [
+      "raça",
+      "arcano"
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "nome": "Força",
+    "descricao": "Determina poder físico e capacidade de carga.",
+    "abreviacao": "FOR",
+    "tags": [
+      "atributo"
+    ]
+  },
+  {
+    "nome": "Destreza",
+    "descricao": "Afeta agilidade, esquiva e ataques à distância.",
+    "abreviacao": "DES",
+    "tags": [
+      "atributo"
+    ]
+  },
+  {
+    "nome": "Constituição",
+    "descricao": "Define vida, resistência e recuperação.",
+    "abreviacao": "CON",
+    "tags": [
+      "atributo"
+    ]
+  },
+  {
+    "nome": "Inteligência",
+    "descricao": "Relacionada ao aprendizado, magia e raciocínio.",
+    "abreviacao": "INT",
+    "tags": [
+      "atributo"
+    ]
+  },
+  {
+    "nome": "Sabedoria",
+    "descricao": "Percepção, intuição e uso de magias divinas.",
+    "abreviacao": "SAB",
+    "tags": [
+      "atributo"
+    ]
+  },
+  {
+    "nome": "Carisma",
+    "descricao": "Influencia liderança, persuasão e interações sociais.",
+    "abreviacao": "CAR",
+    "tags": [
+      "atributo"
+    ]
+  }
+]

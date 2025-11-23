@@ -1,0 +1,178 @@
+/* --- PALETA DE CORES E VARIÁVEIS GLOBAIS --- */
+:root{
+  /* Cores principais com tema bordô e dourado */
+  --bg: #f5e9d4;          /* Fundo principal (dourado claro) */
+  --paper: #fff7e8;       /* Cor de papel/pergaminho para os cards */
+  --ink: #1a0f0e;         /* Cor do texto principal (quase preto) */
+  --accent: #7d0f20;      /* Cor de destaque (bordô) */
+  --muted: #c3a26d;       /* Cor para textos secundários (dourado queimado) */
+  --gold-light: #f8e1aa;  /* Variação clara do dourado */
+  --gold-deep: #b38740;   /* Variação escura do dourado para bordas */
+  --bordo-dark: #5c0715;  /* Variação escura do bordô para hovers */
+}
+
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family: 'Quicksand', sans-serif;
+background: linear-gradient(180deg, #8a1c2e 0%, #430812 100%);
+color:var(--ink);
+}
+
+/* --- SEÇÃO: CABEÇALHO (HEADER) --- */
+.site-header{
+display:flex;
+gap:1rem;
+align-items:center;
+padding:1.2rem;
+border-bottom:2px solid var(--gold-deep);
+background: linear-gradient(90deg, #5c071580, #00000000);
+}
+
+/* Título principal do site */
+.site-header h1{
+font-family:'Cinzel', serif;
+margin:0;
+font-size:1.9rem;
+color:var(--gold-light);
+letter-spacing:1px;
+text-shadow: 0 0 6px rgba(255, 223, 133, 0.5);
+}
+
+/* Controles de busca e filtro no cabeçalho */
+.controls{
+margin-left:auto;
+display:flex;
+gap:0.5rem;
+align-items:center;
+}
+
+/* Estilo para campos de input e select */
+.controls input, .controls select{
+padding:0.6rem 0.8rem;
+border-radius:0.5rem;
+border:1px solid var(--gold-deep);
+background:var(--paper);
+min-width:18rem;
+color:var(--ink);
+}
+
+/* Estilo para botões nos controles */
+.controls button{
+padding:0.6rem 0.9rem;
+border-radius:0.5rem;
+border:none;
+background:var(--accent);
+color:#fff;
+cursor:pointer;
+font-weight:600;
+transition:0.2s;
+box-shadow:0 0 6px rgba(0,0,0,0.3);
+}
+.controls button:hover{
+background:var(--bordo-dark);
+}
+
+/* --- SEÇÃO: FILTROS DE TAGS --- */
+.filters{
+display:flex;
+gap:0.5rem;
+padding:0.8rem;
+flex-wrap:wrap;
+  justify-content: center; /* Centraliza os botões de filtro */
+}
+
+.filter-btn{
+background:var(--paper);
+border:1px solid var(--gold-deep);
+padding:0.4rem 0.6rem;
+border-radius:0.4rem;
+cursor:pointer;
+font-size:0.9rem;
+color:var(--bordo-dark);
+transition:0.2s;
+}
+.filter-btn:hover{
+background:var(--gold-light);
+}
+
+/* --- SEÇÃO: CONTAINER DE CARDS --- */
+.card-container{
+max-width:1000px;
+margin:1rem auto;
+padding:1rem;
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+gap:1rem;
+}
+
+/* Estilo base para cada card */
+.card{
+background:linear-gradient(180deg,#fff1ec 0%, #ffe7c4 100%);
+border:1px solid var(--gold-deep);
+padding:1rem;
+border-radius:8px;
+box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+transition:0.2s;
+}
+.card:hover{
+transform: translateY(-4px);
+box-shadow: 0 12px 26px rgba(0,0,0,0.2);
+}
+
+/* Título dentro do card */
+.card h2{
+margin:0 0 0.3rem 0;
+color:var(--accent);
+font-family:'Cinzel', serif;
+font-weight:700;
+text-shadow:0 0 3px rgba(0,0,0,0.1);
+}
+
+/* Metadados do card (ex: tipo, nível) */
+.card .meta{
+font-size:0.85rem;
+color:var(--muted);
+margin-bottom:0.6rem;
+font-weight:600;
+}
+
+/* Parágrafo de descrição no card */
+.card p{
+margin:0.3rem 0 0.6rem 0;
+line-height:1.4;
+}
+
+/* Badges/Tags pequenas dentro dos cards */
+.badge{
+display:inline-block;
+padding:0.2rem 0.45rem;
+border-radius:0.3rem;
+background:var(--gold-light);
+border:1px solid var(--gold-deep);
+font-size:0.78rem;
+margin-right:0.3rem;
+font-weight:600;
+color:#4b2d08;
+}
+
+/* --- SEÇÃO: RODAPÉ (FOOTER) --- */
+.footer{
+text-align:center;
+padding:1rem;
+color:var(--gold-light);
+font-size:0.9rem;
+border-top:1px solid var(--gold-deep);
+margin-top:2rem;
+background:#2a0a0f;
+}
+
+/* Ícone pequeno ao lado do título do card (ex: ícone de classe) */
+.card-icon{
+  width:22px;
+  height:22px;
+  margin-right:8px;
+  vertical-align:middle;
+  display:inline-block;
+  border-radius:4px;
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "Goblin",
+    "descricao": "Pequeno, traiçoeiro e vive em bandos.",
+    "nivel": 1,
+    "vida": 8,
+    "tags": [
+      "monstro",
+      "comum"
+    ]
+  },
+  {
+    "nome": "Dragão Juvenil",
+    "descricao": "Dragão em crescimento; cuspide fogo com grande perigo.",
+    "nivel": 8,
+    "vida": 120,
+    "tags": [
+      "boss",
+      "voador"
+    ]
+  },
+  {
+    "nome": "Esqueleto",
+    "descricao": "Mortos-vivos, fáceis de ferir, perigosos em número.",
+    "nivel": 2,
+    "vida": 16,
+    "tags": [
+      "undead",
+      "comum"
+    ]
+  },
+  {
+    "nome": "Lobo Feral",
+    "descricao": "Predador do bosque, ataca em matilhas.",
+    "nivel": 1,
+    "vida": 12,
+    "tags": [
+      "animal",
+      "selvagem"
+    ]
+  },
+  {
+    "nome": "Troll",
+    "descricao": "Regeneração rápida e força bruta, fraco contra fogo.",
+    "nivel": 6,
+    "vida": 80,
+    "tags": [
+      "monstro",
+      "força"
+    ]
+  },
+  {
+    "nome": "Sereia",
+    "descricao": "Encanta marinheiros e vive perto de costas rochosas.",
+    "nivel": 3,
+    "vida": 30,
+    "tags": [
+      "monstro",
+      "encanto"
+    ]
+  }
+]

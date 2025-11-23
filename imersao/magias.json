@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Bola de Fogo",
+    "descricao": "Explosão de chamas causando dano em área.",
+    "nivel": 3,
+    "custo_mana": 30,
+    "efeito": "Dano em área",
+    "tags": [
+      "magia",
+      "dano"
+    ]
+  },
+  {
+    "nome": "Cura",
+    "descricao": "Restaura pontos de vida de um aliado.",
+    "nivel": 1,
+    "custo_mana": 10,
+    "efeito": "Cura",
+    "tags": [
+      "magia",
+      "cura"
+    ]
+  },
+  {
+    "nome": "Sono",
+    "descricao": "Coloca inimigos fracos para dormir temporariamente.",
+    "nivel": 1,
+    "custo_mana": 12,
+    "efeito": "Controle",
+    "tags": [
+      "magia",
+      "controle"
+    ]
+  },
+  {
+    "nome": "Escudo Arcano",
+    "descricao": "Cria uma barreira mágica que reduz dano.",
+    "nivel": 2,
+    "custo_mana": 15,
+    "efeito": "Defesa",
+    "tags": [
+      "magia",
+      "defesa"
+    ]
+  },
+  {
+    "nome": "Relâmpago",
+    "descricao": "Descarga elétrica que pode saltar entre alvos.",
+    "nivel": 4,
+    "custo_mana": 35,
+    "efeito": "Dano em cadeia",
+    "tags": [
+      "magia",
+      "dano"
+    ]
+  },
+  {
+    "nome": "Teletransporte",
+    "descricao": "Move o conjurador instantaneamente para um local próximo.",
+    "nivel": 5,
+    "custo_mana": 50,
+    "efeito": "Mobilidade",
+    "tags": [
+      "magia",
+      "utilidade"
+    ]
+  }
+]

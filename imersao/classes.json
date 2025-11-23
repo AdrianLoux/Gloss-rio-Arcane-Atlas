@@ -1,0 +1,88 @@
+[
+  {
+    "nome": "Mago",
+    "descricao": "Usuário de artes arcanas; alto poder mágico e baixa resistência física.",
+    "icone": "assets/icons/mago.png",
+    "nivel_min": 1,
+    "papel": "Dano / Controle",
+    "habilidades": [
+      "Bola de Fogo",
+      "Escudo Arcano"
+    ],
+    "tags": [
+      "classe",
+      "magia"
+    ]
+  },
+  {
+    "nome": "Guerreiro",
+    "descricao": "Combatente pesado, mestre em armas e táticas corpo-a-corpo.",
+    "nivel_min": 1,
+    "papel": "Tanque / Dano",
+    "habilidades": [
+      "Golpe Pesado",
+      "Postura Defensiva"
+    ],
+    "tags": [
+      "classe",
+      "corpo-a-corpo"
+    ]
+  },
+  {
+    "nome": "Ladino",
+    "descricao": "Especialista em furtividade e ataque crítico; excelente em exploração.",
+    "nivel_min": 1,
+    "papel": "Dano / Suporte",
+    "habilidades": [
+      "Ataque Furtivo",
+      "Desarmar Armadilha"
+    ],
+    "tags": [
+      "classe",
+      "suporte"
+    ]
+  },
+  {
+    "nome": "Clérigo",
+    "descricao": "Canalizador divino que cura aliados e bane mortos-vivos.",
+    "nivel_min": 1,
+    "papel": "Suporte / Cura",
+    "habilidades": [
+      "Cura",
+      "Proteção Sagrada"
+    ],
+    "tags": [
+      "classe",
+      "cura"
+    ]
+  },
+  {
+    "nome": "Ranger",
+    "descricao": "Atirador e explorador versátil; companheiro de animais disponível.",
+    "nivel_min": 1,
+    "papel": "Dano à Distância",
+    "habilidades": [
+      "Tiro Preciso",
+      "Companheiro Animal"
+    ],
+    "tags": [
+      "classe",
+      "distância"
+    ]
+  },
+  {
+    "nome": "Bardo",
+    "descricao": "Artista e mágico menor; confere buffs através de canções.",
+    "nivel_min": 1,
+    "papel": "Suporte",
+    "habilidades": [
+      "Canção de Batalha",
+      "Encanto"
+    ],
+    "tags": [
+      "classe",
+      "suporte",
+      "social"
+    ]
+  }
+]

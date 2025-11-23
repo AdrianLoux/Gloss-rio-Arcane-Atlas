@@ -1,0 +1,40 @@
+[
+  {
+    "nome": "Aldor, o Errante",
+    "classe": "Guerreiro",
+    "raça": "Humano",
+    "nivel": 5,
+    "atributos": {
+      "FOR": 16,
+      "DES": 12,
+      "CON": 14,
+      "INT": 8,
+      "SAB": 10,
+      "CAR": 9
+    },
+    "itens": [
+      "Espada Longa",
+      "Saco de Moedas (100)"
+    ],
+    "descricao": "Veterano de muitas guerras, busca redenção."
+  },
+  {
+    "nome": "Lyra, Andarilha dos Bosques",
+    "classe": "Ranger",
+    "raça": "Elfo",
+    "nivel": 4,
+    "atributos": {
+      "FOR": 10,
+      "DES": 16,
+      "CON": 12,
+      "INT": 12,
+      "SAB": 13,
+      "CAR": 11
+    },
+    "itens": [
+      "Arco Longo",
+      "Poção de Cura"
+    ],
+    "descricao": "Protetora da Floresta de Lýra."
+  }
+]
